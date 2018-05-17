@@ -34,6 +34,7 @@
 // Device address = 0
 // GDO0 signal selection = ( 6) Asserts when sync word has been sent / received, and de-asserts at the end of the packet
 // GDO2 signal selection = (41) CHIP_RDY
+
 #ifndef SMARTRF_CC1101_H
 #define SMARTRF_CC1101_H
 

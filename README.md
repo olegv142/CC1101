@@ -9,7 +9,7 @@ The yet another CC1101 library was created with the following goals in mind:
 
 It supports variable length packets that should fit onto the transceiver FIFO (max payload size is 60 bytes).
 The packet has target address that should match receiver address. The 0 address is used for broadcasting.
-The transceiver goes to idle state automatically after packet receive or transmit completion.
+The transceiver goes to the idle state automatically after packet receive or transmit completion.
 
 ## Author
 

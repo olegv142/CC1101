@@ -9,6 +9,10 @@
 // The following file is generated using TI SmartRF Studio
 #include "CC1101Cfg.h"
 
+//
+// The following configuration batches are just the settings
+// for the consecutive groups of configuration registers
+//
 static const uint8_t PROGMEM s_def_cfg1[] = {
 	SMARTRF_SETTING_PKTCTRL1,// PKTCTRL1 0x07         // Packet automation control
 	SMARTRF_SETTING_PKTCTRL0,// PKTCTRL0 0x08         // Packet automation control

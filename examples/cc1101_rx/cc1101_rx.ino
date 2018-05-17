@@ -6,6 +6,7 @@ void setup() {
   // put your setup code here, to run once:
   Serial.begin(9600);
   Serial.println(g_tx.begin());
+  // Start receiving
   g_tx.receive();
 }
 
@@ -36,11 +37,13 @@ void loop() {
     } else {
       Serial.println("no packet");
     }
+    // Restart receiving
     g_tx.receive();
   } else {
         Serial.print("idle channel rssi=");
         Serial.println(g_tx.get_rssi());
   }
+  // The delay between status checks should be less than the packet sending interval
   delay(500);
 }
 
