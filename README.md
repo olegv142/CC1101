@@ -1,5 +1,5 @@
 # CC1101
-CC1101 Transceiver simple packet oriented driver
+CC1101 Transceiver simple packet oriented driver for Arduino
 
 The yet another CC1101 library was created with the following goals in mind:
 - Ease if use
